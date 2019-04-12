@@ -1,0 +1,54 @@
+body {
+	text-align: center;
+	padding-top: 20px;
+}
+
+h2 {
+
+}
+
+h1 {
+	font-size: 100px;
+	line-height: 72px;
+	margin: 140px 0 140px;
+}
+
+div.countdown-outer {
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0 0 40px;
+}
+
+p.countdown {
+	font-size: 28px;
+	line-height: 32px;
+	margin: 5px 0;
+}
+
+#plugs {
+	margin: 40px 0;
+	text-align: center;
+}
+#plugs > hr {
+	width: 50px;
+	margin: 0 auto 20px;
+	
+}
+
+#plugs > h5 {
+	margin: 0 0 10px;
+}
+
+#plugs > div > a {
+	display: inline-block;
+	margin: 0 0;
+}
+
+#plugs > h6 {
+	font-weight: normal;
+	color: #999;
+}
+
+#plugs > h6 > span {
+	color: #bbb;
+}
