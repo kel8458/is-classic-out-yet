@@ -46,8 +46,8 @@
 		<hr />
 		<h5>Want to chat Classic?</h5>
 		<div>
-			<a href="https://barrens.chat" onclick="captureOutboundLink('https://barrens.chat'); return false;" target="_blank" title="Barrens Chat"><img src="img/bc.png" alt="Barrens Chat" width="25" height="25" /></a>
-			<a href="https://discord.gg/3jX9s3H" onclick="captureOutboundLink('https://discord.gg/3jX9s3H'); return false;" target="_blank" title="Classic WoW Oceanic"><img src="img/disc.png" alt="Classic WoW Oceanic" width="25" height="25" /></a>
+			<a href="https://barrens.chat" target="_blank" title="Barrens Chat"><img src="img/bc.png" alt="Barrens Chat" width="25" height="25" /></a>
+			<a href="https://discord.gg/3jX9s3H" target="_blank" title="Classic WoW Oceanic"><img src="img/disc.png" alt="Classic WoW Oceanic" width="25" height="25" /></a>
 		</div>
 		<h6>Kel<span>#9553</span></h6>
 	</div>
@@ -84,14 +84,7 @@
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138155245-1"></script>
-	<script>
-		var captureOutboundLink = function(url) {
-			ga('send', 'event', 'outbound', 'click', url, {
-				'transport': 'beacon',
-				'hitCallback': function(){document.location = url;}
-			});
-		}
-		
+	<script>		
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
