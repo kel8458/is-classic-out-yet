@@ -32,14 +32,18 @@
 
 	<div class="countdown-outer">
 		<p>Is there even a release date?</p>
-		<p><b>No.</b> All we know is Summer 2019.</p>
+    <p>
+      <b>No</b>, however:<br />
+      Summer 2019 is confirmed. <sup>[1]</sup><br />
+      Second half of the year has been quoted. <sup>[2]</sup>
+    </p>
 	</div>
 	<div class="countdown-outer">
-		<p>Summer starts in</p>
+		<p>Earliest release:</p>
 		<p id="countdown-start" class="countdown">&nbsp;</p>
 	</div>
 	<div class="countdown-outer">
-		<p>Summer ends in</p>
+		<p>Latest release:</p>
 		<p id="countdown-end" class="countdown">&nbsp;</p>
 	</div>
 	<div id="plugs">
@@ -49,7 +53,21 @@
 			<a href="https://barrens.chat" target="_blank" title="Barrens Chat"><img src="img/bc.png" alt="Barrens Chat" width="25" height="25" /></a>
 			<a href="https://discord.gg/3jX9s3H" target="_blank" title="Classic WoW Oceanic"><img src="img/disc.png" alt="Classic WoW Oceanic" width="25" height="25" /></a>
 		</div>
-		<h6>Kel<span>#9553</span></h6>
+    
+    <h5>References</h5>
+    <div class="container-left">
+      <ol>
+        <li>"World of Warcraft Classic is coming summer 2019, and will be included in your #Warcraft subscription." - <a href="https://web.archive.org/web/20190503052240/https:/twitter.com/Warcraft/status/1058430660266749952" target="_blank" rel="nofollow">@Warcraft Twitter</a></li>
+        <li>"We will follow this up in the second half of the year with our most important release, <span title="&#3232;_&#3232;">our new CoD title from Activision</span>. In addition Blizzard will release World of Warcraft Classic&hellip;" - <a href="https://web.archive.org/web/20190503051239/https://investor.activision.com/events-presentations" target="_blank" rel="nofollow">Activision Blizzard First Quarter Calendar 2019 Results Conference Call</a></li>
+      </ol>
+    </div>
+    
+    <h5>Updates</h5>
+    <div class="container-left">
+      <b>2019-05-03:</b> Update earliest date to second half of year (1 July 2019) and latest date to the first midnight after September Equinox (23 September 2019). This is the accepted date for the end of Summer in North America.
+    </div>
+    
+		<h6>Made by Kel<span>#9553</span></h6>
 	</div>
 	
 	<script src="js/vendor/modernizr-3.7.1.min.js"></script>
@@ -60,10 +78,10 @@
 	<script src="js/main.js"></script>
 
 	<script>		
-		var summerStart = new Date('June 1, 2019 00:00:00 GMT-07:00');
+		var summerStart = new Date('July 1, 2019 00:00:00 GMT-07:00');
 		var summerEnd = new Date('September 1, 2019 00:00:00 GMT-07:00');
-		var summerStartString = "midnight June 1, 2019 PDT";
-		var summerEndString = "midnight September 1, 2019 PDT";
+		var summerStartString = "midnight July 1, 2019 PDT";
+		var summerEndString = "midnight September 24, 2019 PDT";
 		
 		$("#countdown-start")
 		  .attr("title", "Counting down to " + summerStartString)
