@@ -54,7 +54,7 @@ p.countdown {
 }
 
 #plugs > div {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 #plugs > div.container-left {
@@ -62,4 +62,8 @@ p.countdown {
   margin: 0 auto;
   text-align: left;
   font-size: 13px;
+}
+
+ol {
+  padding-left: 0;
 }
