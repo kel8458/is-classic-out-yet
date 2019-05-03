@@ -67,3 +67,7 @@ p.countdown {
 ol {
   padding-left: 0;
 }
+
+ol > li:target {
+  background-color: #b3d4fc;
+}
