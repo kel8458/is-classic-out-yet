@@ -52,3 +52,14 @@ p.countdown {
 #plugs > h6 > span {
 	color: #bbb;
 }
+
+#plugs > div {
+  margin-bottom: 15px;
+}
+
+#plugs > div.container-left {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 13px;
+}
